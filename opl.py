@@ -228,7 +228,7 @@ def handle_attack(message):
             target = command[1]
             port = int(command[2])  # Convert time to integer
             time = int(command[3])  # Convert port to integer
-            if time > 301:
+            if time > 401:
                 response = "Error: Time interval must be less than 120."
             else:
 
